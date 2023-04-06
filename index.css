@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url(CursedTimerUlil-Aznm.ttf)
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #1b244a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.home-scorebox {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#home-score, #guest-score {
+    margin: -20px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400px;
+    color: #F94F6D;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    
+}
+
+.guest-scorebox {
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.add-point-home, .add-two-point-home, .add-three-point-home, .add-point-guest, .add-two-point-guest, .add-three-point-guest {
+    border: 1px solid #9AABD8;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #1b244a;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    text-align: center;
+}  
+
+.buttons-home, .buttons-guest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
